@@ -1,6 +1,5 @@
   background-color:gray;
-}
-#img1  {
+.img1  {
     position: absolute;
     left: -250px;
     width: 200px;
@@ -8,7 +7,7 @@
     background: red;    
 }
 
-#container {
+.container {
     position: relative;
     width: 200px;
     background: #ffffff;
@@ -16,7 +15,7 @@
     margin: 0 auto;
 }
 
-#img2{
+.img2{
    position: relative;
     right: -250px ;
     width: 200px;
