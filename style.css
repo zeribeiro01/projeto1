@@ -1,6 +1,6 @@
   background-color:gray;
 }
-#    {
+#img1  {
     position: absolute;
     left: -250px;
     width: 200px;
@@ -8,7 +8,7 @@
     background: red;    
 }
 
-#page-wrap  {
+#container {
     position: relative;
     width: 200px;
     background: #ffffff;
@@ -16,7 +16,7 @@
     margin: 0 auto;
 }
 
-#other{
+#img2{
    position: relative;
     right: -250px ;
     width: 200px;
