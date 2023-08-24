@@ -1,4 +1,6 @@
-.div{
+  background-color:gray;
+}
+#    {
     position: absolute;
     left: -250px;
     width: 200px;
@@ -6,3 +8,19 @@
     background: red;    
 }
 
+#page-wrap  {
+    position: relative;
+    width: 200px;
+    background: #ffffff;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#other{
+   position: relative;
+    right: -250px ;
+    width: 200px;
+    background: #ff00ff;
+    height: 400px;
+    margin: 0 auto;
+}
