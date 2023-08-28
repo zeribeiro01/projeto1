@@ -14,14 +14,6 @@ body {
     
 }
 
-.item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 05px;
-    padding: 05px;
-  
-}
-
 .link{
     font-family: 'Roboto', sem serifa;
     font-size: 25px;
