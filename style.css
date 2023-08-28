@@ -14,6 +14,14 @@ body {
     
 }
 
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 05px;
+    padding: 05px;
+  
+}
+
 .link{
     font-family: 'Roboto', sem serifa;
     font-size: 25px;
@@ -25,6 +33,7 @@ body {
     width: 230px;
     border-radius:110px;
     border-color: #000000;
+    
 }
 .titulo{
     border-top: 20px solid rgb(0, 0, 0);
