@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Músicas</title>
+    <link rel="stylesheet" href="styleradio.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Player de Músicas</h1>
+        <p>Escolha sua musica:</p>
+        <ul id="playlist"></ul>
+        <img src="sertanejo.png" alt="Imagem Quadrada" class="square-image">
+        <audio id="player" controls></audio>
+        <button id="prevButton" onclick="tocarMusicaAnterior()"><< Anterior  </button>
+        <button id="nextButton" onclick="tocarProximaMusica()">  proxima>></button>
+    </div>
+  
+    <script src="scriptradio.js"></script>
+</body>
+</html>
