@@ -23,7 +23,7 @@ let musicaAtual = 0;
 function criarPlaylist() {
     musicas.forEach((musicas, index) => {
         const li = document.createElement("li");
-        li.textContent = `Música ${index + 1},`;
+        li.textContent = musicas ;
         li.addEventListener("click", () => tocarMusica(index));
         playlist.appendChild(li);
     });
@@ -56,11 +56,9 @@ criarPlaylist();
 // Adicionar event listeners para os botões de próxima e anterior
 const nextButton = document.getElementById("nextButton");
 const prevButton = document.getElementById("prevButton");
-const play1 = document.getElementById("play");
 
 nextButton.addEventListener("click", tocarProximaMusica);
 prevButton.addEventListener("click", tocarMusicaAnterior);
-play1.addEventListener("click", tocarMusica);
 
 
 function loadAudio() {
